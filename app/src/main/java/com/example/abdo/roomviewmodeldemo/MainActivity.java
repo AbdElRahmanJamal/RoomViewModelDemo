@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 appDatabase.insertPlayer(new PlayerEntity(playerNameString, playerTeamString));
                 updateRecView(appDatabase.getAllPlayers());
+                recyclerView.scrollToPosition(appDatabase.getAllPlayers().size() - 1);
                 dialog.dismiss();
             }
         });
