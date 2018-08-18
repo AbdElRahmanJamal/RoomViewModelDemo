@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomViewModelDemo</string>
+    <string name="player_name">Player Name</string>
+    <string name="player_team">Player Team</string>
+    <string name="click_here_to_delete_this_player">click here to delete this player</string>
+    <string name="delete_players">Delete Players</string>
+    <string name="insert_player">Insert Player</string>
+    <string name="get_players">Get Players</string>
+</resources>
